@@ -21,8 +21,6 @@ window.onload = function () {
     drops[x] = 1;
   }
 
-  console.log(drops);
-
   function draw() {
     ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
     ctx.fillRect(0, 0, c.width, c.height);
