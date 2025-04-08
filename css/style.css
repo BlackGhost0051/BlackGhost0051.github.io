@@ -29,6 +29,10 @@ body{
     color: green;
 }
 
+.nav-bar ul li a:hover{
+    cursor: pointer;
+}
+
 
 .header {
     position: relative;
