@@ -3,66 +3,66 @@ let main = document.querySelector(".main");
 let staticContent = document.querySelector(".nav-bar");
 let footer = document.querySelector(".footer");
 
-let indexMain =
-    "      <div>index</div>\n" +
-    "      <div></div>\n" +
-    "      <div></div>";
+let indexMain = `
+            <div>index</div>
+            <div></div>
+            <div></div>`;
 
-let projectsMain =
-    "      <div>projects</div>\n" +
-    "      <div></div>\n" +
-    "      <div></div>";
+let projectsMain = `
+            <div>projects</div>
+            <div></div>
+            <div></div>`;
 
-let skillsMain =
-    "      <div>skills</div>\n" +
-    "      <div></div>\n" +
-    "      <div></div>";
+let skillsMain = `
+            <div>skills</div>
+            <div></div>
+            <div></div>`;
 
-let experienceMain =
-    "      <div>experience</div>\n" +
-    "      <div></div>\n" +
-    "      <div></div>";
+let experienceMain =`
+            <div>experience</div>
+            <div></div>
+            <div></div>`;
 
-let contactMain =
-    "      <div>contact</div>\n" +
-    "      <div></div>\n" +
-    "      <div></div>";
+let contactMain = `
+            <div>contact</div>
+            <div></div>
+            <div></div>`;
 
 
-let indexContent =
-    "<h1>Black Ghost</h1>\n" +
-    "<p>Also known as the Lord of Debugger Rooms. Master of Code Land. Elite orator and analyst.</p>";
+let indexContent = `
+            <h1>Black Ghost</h1>
+            <p>Also known as the Lord of Debugger Rooms. Master of Code Land. Elite orator and analyst.</p>`;
 
-let projectsContent =
-    "<h1>Projects</h1>\n" +
-    "<p>A showcase of innovative and impactful work.</p>";
+let projectsContent =`
+            <h1>Projects</h1>
+            <p>A showcase of innovative and impactful work.</p>`;
 
-let skillsContent =
-    "<h1>Skills</h1>\n" +
-    "<p>Proficient in modern web technologies, problem-solving, and code optimization.</p>";
+let skillsContent = `
+            <h1>Skills</h1>
+            <p>Proficient in modern web technologies, problem-solving, and code optimization.</p>`;
 
-let experienceContent =
-    "<h1>Experience</h1>\n" +
-    "<p>Years of hands-on coding and real-world application development.</p>";
+let experienceContent = `
+            <h1>Experience</h1>
+            <p>Years of hands-on coding and real-world application development.</p>`;
 
-let contactContent =
-    "<h1>Contact</h1>\n" +
-    "<p>Let's connect. Open to collaborations and challenges.</p>";
+let contactContent = `
+            <h1>Contact</h1>
+            <p>Let's connect. Open to collaborations and challenges.</p>`;
 
 
 function setNavbar(){
-    let navbarHTML = "" +
-        "        <ul>\n" +
-        "            <li><a class='about_me'>About Me</a></li>\n" +
-        "            <li><a class='projects'>Projects</a></li>\n" +
-        "            <li><a class='skills'>Skills</a></li>\n" +
-        "            <li><a class='experience'>Experience</a></li>\n" +
-        "            <li><a class='contact'>Contact</a></li>\n" +
-        "        </ul>";
+    let navbarHTML = `
+            <ul>
+                <li><a class='about_me'>About Me</a></li>
+                <li><a class='projects'>Projects</a></li>
+                <li><a class='skills'>Skills</a></li>
+                <li><a class='experience'>Experience</a></li>
+                <li><a class='contact'>Contact</a></li>
+            </ul>`;
 
-    let footerHTML = "" +
-        "       <div class='links'>" +
-        "       </div>";
+    let footerHTML = `
+            <div class='links'>
+            </div>`;
 
     staticContent.innerHTML = navbarHTML;
     footer.innerHTML = footerHTML;
