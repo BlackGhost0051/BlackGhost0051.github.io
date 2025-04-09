@@ -61,6 +61,7 @@ function setNavbar(){
             </ul>`;
 
     let footerHTML = `
+            <div>Black Ghost</div>
             <div class='links'>
             </div>`;
 
