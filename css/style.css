@@ -52,3 +52,13 @@ body{
     padding: 10ex;
     background: rgba(0, 0, 0, 0.2);
 }
+
+
+.main{
+    margin: 5ex;
+    border: green 1px solid;
+    padding: 5ex;
+}
+
+.footer{
+}
