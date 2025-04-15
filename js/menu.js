@@ -4,27 +4,37 @@ let staticContent = document.querySelector(".nav-bar");
 let footer = document.querySelector(".footer");
 
 let indexMain = `
-            <div>index</div>
+            <div>
+                index
+            </div>
             <div></div>
             <div></div>`;
 
 let projectsMain = `
-            <div>projects</div>
+            <div>
+                projects
+            </div>
             <div></div>
             <div></div>`;
 
 let skillsMain = `
-            <div>skills</div>
+            <div>
+                skills
+            </div>
             <div></div>
             <div></div>`;
 
 let experienceMain =`
-            <div>experience</div>
+            <div>
+                experience
+            </div>
             <div></div>
             <div></div>`;
 
 let contactMain = `
-            <div>contact</div>
+            <div>
+                contact
+            </div>
             <div></div>
             <div></div>`;
 
