@@ -5,6 +5,10 @@
 }
 
 body{
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    line-height: 1.6;
+
     background: black;
     color: green;
 }
@@ -12,11 +16,14 @@ body{
 .nav-bar{
     position: fixed;
     top: 0;
+    width: 100%;
+    background: black;
 }
 
 .nav-bar ul{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .nav-bar ul li{
@@ -27,7 +34,18 @@ body{
 .nav-bar ul li a{
     text-decoration: none;
     color: green;
+
+    padding: 0.5ex 1.5ex;
+    transition: background 0.3s;
+    border-radius: 5px;
 }
+
+.nav-bar ul li a:hover {
+    background-color: #0f0;
+    color: black;
+    border-radius: 5px;
+}
+
 
 .nav-bar ul li a:hover{
     cursor: pointer;
@@ -61,4 +79,14 @@ body{
 }
 
 .footer{
+    height: 10ex;
+}
+
+.footer .links{
+    display: flex;
+}
+
+.footer .links a{
+    color: white;
+    text-decoration: none;
 }
