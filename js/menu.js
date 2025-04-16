@@ -73,6 +73,12 @@ function setNavbar(){
     let footerHTML = `
             <div>Black Ghost</div>
             <div class='links'>
+                <div>
+                    <a href="https://github.com/BlackGhost0051">GitHub</a>
+                </div>
+                <div>
+                    
+                </div>
             </div>`;
 
     staticContent.innerHTML = navbarHTML;
