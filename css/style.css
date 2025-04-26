@@ -80,6 +80,7 @@ body{
 }
 
 .footer{
+    padding: 1ex;
     height: 10ex;
 }
 
@@ -88,8 +89,12 @@ body{
 }
 
 .footer .links a{
-    color: white;
+    color: #b1b1b1;
     text-decoration: none;
+}
+
+.footer .links a:hover{
+    color: #fff;
 }
 
 .no-select {
