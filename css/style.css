@@ -18,6 +18,7 @@ body{
     top: 0;
     width: 100%;
     background: black;
+    z-index: 1;
 }
 
 .nav-bar ul{
