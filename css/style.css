@@ -106,6 +106,14 @@ body{
 
 
 
+.skills-container ul li {
+    display: flex;
+    align-items: center;
+    gap: 1ex;
+    list-style: none;
+    margin-bottom: 1ex;
+}
+
 
 .container {
     padding: 2ex;
