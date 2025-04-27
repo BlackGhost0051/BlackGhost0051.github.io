@@ -50,11 +50,71 @@ let projectsMain = `
 `;
 
 let skillsMain = `
-            <div>
-                skills
-            </div>
-            <div></div>
-            <div></div>`;
+            <div class="skills-container">
+            
+                <div>
+                    <h1>Programming languages:</h1>
+                    <ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>C#</li>
+                        <li>Java</li>
+                        <li>Kotlin</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>GDScript</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h1>Frameworks:</h1>
+                    <ul>
+                        <li>Flask</li>
+                        <li>Spring</li>
+                        <li>wxWidgets</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h1>Databases:</h1>
+                    <ul>
+                        <li>SQLite</li>
+                        <li>PostgreSQL</li>
+                        <li>MangoDB</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h1>Tools:</h1>
+                    <ul>
+                        <li>Docker</li>    
+                        <li>WordPress</li>    
+                    </ul>
+                </div>
+                
+                <div>
+                    <h1>Security Tools:</h1>
+                    <ul>
+                        <li>Wireshark</li>
+                        <li>Burpsuite</li>
+                        <li>Nmap</li>
+                        <li>Metasploit</li>
+                        <li>Maltego</li>
+                        <li>Ghidra</li>
+                        <li>Recon-ng</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h1>Operating systems:</h1>
+                    <ul>
+                        <li>Kali Linux</li>
+                        <li>Debian</li>
+                        <li>Windows</li>
+                    </ul>
+                </div>
+            </div>`;
 
 let experienceMain =`
             <div>
