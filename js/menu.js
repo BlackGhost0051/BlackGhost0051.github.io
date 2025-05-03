@@ -172,10 +172,12 @@ let experienceMain =`
 
 let contactMain = `
             <div>
-                contact
+                <ul>
+                    <li>Email: </li>
+                    <li>Discord: </li>
+                </ul>
             </div>
-            <div></div>
-            <div></div>`;
+            `;
 
 
 let indexContent = `
