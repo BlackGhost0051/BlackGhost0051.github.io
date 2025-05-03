@@ -86,9 +86,10 @@ let projectsMain = `
         <div class="category">
             <h3>Android</h3>
             <ul>
-                <li>FakeGPS</li>
                 <li>Nephilos</li>
                 <li>Phantom</li>
+                <li>FakeGPS</li>
+                <li>Bloom</li>
                 <li>Cyclop</li>
             </ul>
         </div>
