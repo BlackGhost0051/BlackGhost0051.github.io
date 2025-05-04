@@ -50,54 +50,53 @@ function createSkillItem(name) {
 
 
 let indexMain = `
-            <div>
-                index
+            <div class="index-container container">
+                <li>index</li>
             </div>
-            <div></div>
-            <div></div>`;
+            `;
 
 let projectsMain = `
-    <div class="projects-container">
-        <h2>Projects</h2>
-
-        <div class="category">
-            <h3>PC</h3>
-            <ul>
-                <li>Malware</li>
-                <li>Cryptography</li>
-                <li>Steganography</li>
-                <li>Brute-force</li>
-                <li>Electronics</li>
-                <li>OSINT</li>
-                <li>Social-Engineering</li>
-                <li>HackRF-One</li>
-            </ul>
-        </div>
-
-        <div class="category">
-            <h3>Web</h3>
-            <ul>
-                <li>FastCode</li>
-                <li>QuickCV</li>
-                <li>VCloud</li>
-            </ul>
-        </div>
-
-        <div class="category">
-            <h3>Android</h3>
-            <ul>
-                <li>Nephilos</li>
-                <li>Phantom</li>
-                <li>FakeGPS</li>
-                <li>Bloom</li>
-                <li>Cyclop</li>
-            </ul>
-        </div>
-    </div>
-`;
+            <div class="projects-container container">
+                <h2>Projects</h2>
+        
+                <div class="category">
+                    <h3>PC</h3>
+                    <ul>
+                        <li>Malware</li>
+                        <li>Cryptography</li>
+                        <li>Steganography</li>
+                        <li>Brute-force</li>
+                        <li>Electronics</li>
+                        <li>OSINT</li>
+                        <li>Social-Engineering</li>
+                        <li>HackRF-One</li>
+                    </ul>
+                </div>
+        
+                <div class="category">
+                    <h3>Web</h3>
+                    <ul>
+                        <li>FastCode</li>
+                        <li>QuickCV</li>
+                        <li>VCloud</li>
+                    </ul>
+                </div>
+        
+                <div class="category">
+                    <h3>Android</h3>
+                    <ul>
+                        <li>Nephilos</li>
+                        <li>Phantom</li>
+                        <li>FakeGPS</li>
+                        <li>Bloom</li>
+                        <li>Cyclop</li>
+                    </ul>
+                </div>
+            </div>
+            `;
 
 let skillsMain = `
-            <div class="skills-container">
+            <div class="skills-container container">
             
                 <div>
                     <h1>Programming languages:</h1>
@@ -161,17 +160,17 @@ let skillsMain = `
                         ${createSkillItem("Windows")}
                     </ul>
                 </div>
-            </div>`;
+            </div>
+            `;
 
 let experienceMain =`
-            <div>
-                experience
+            <div class="experience-container container">
+                <li>experience</li>
             </div>
-            <div></div>
-            <div></div>`;
+            `;
 
 let contactMain = `
-            <div>
+            <div class="contact-container container">
                 <ul>
                     <li>Email: </li>
                     <li>Discord: </li>
