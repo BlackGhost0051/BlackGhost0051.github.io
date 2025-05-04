@@ -39,6 +39,18 @@ const links = {
     "Kali Linux": "https://www.kali.org/images/kali-logo.svg",
     "Debian": "https://www.debian.org/Pics/openlogo-50.png",
     "Windows": "https://assets.ubuntu.com/v1/183c7231-windows_logo.svg",
+
+    "Injection": "https://cdn-icons-png.flaticon.com/512/15096/15096885.png",
+    "Dirb": "https://www.kali.org/tools/dirb/images/dirb-logo.svg",
+    "Dirsearch": "https://www.kali.org/tools/dirsearch/images/dirsearch-logo.svg",
+    "Attack": "https://cdn-icons-png.flaticon.com/512/2074/2074702.png",
+    "John": "https://www.kali.org/tools/john/images/john-logo.svg",
+    "Cipher": "https://cdn-icons-png.flaticon.com/512/18240/18240354.png",
+    "Bit": "https://cdn-icons-png.flaticon.com/512/5044/5044387.png",
+    "WSL": "https://cdn-icons-png.flaticon.com/512/11813/11813286.png",
+    "Search": "https://cdn-icons-png.flaticon.com/512/1055/1055645.png",
+    "Geo": "https://cdn-icons-png.flaticon.com/512/501/501987.png",
+    "GQRX": "https://usercontent.one/wp/www.gqrx.dk/wp-content/uploads/2013/02/cropped-scope-192x192.png?media=1705941888",
 };
 
 function createSkillItem(name) {
