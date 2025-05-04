@@ -264,18 +264,8 @@ function setContact(){
 
 setIndex();
 
-about_me.addEventListener('click', () => {
-    setIndex();
-});
-projects.addEventListener('click', () => {
-    setProjects();
-});
-skills.addEventListener('click', () => {
-    setSkills();
-});
-experience.addEventListener('click', () => {
-    setExperience();
-});
-contact.addEventListener('click', () => {
-    setContact();
-});
+about_me.addEventListener('click', () => { setIndex(); });
+projects.addEventListener('click', () => { setProjects(); });
+skills.addEventListener('click', () => { setSkills(); });
+experience.addEventListener('click', () => { setExperience(); });
+contact.addEventListener('click', () => { setContact(); });

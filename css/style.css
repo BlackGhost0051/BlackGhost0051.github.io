@@ -106,7 +106,7 @@ body{
 
 
 
-.skills-container ul li {
+.container ul li {
     display: flex;
     align-items: center;
     gap: 1ex;
