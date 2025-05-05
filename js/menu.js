@@ -199,15 +199,14 @@ let skillsMain = `
                     <h2>Steganography</h2>
                     <ul>
                         ${createCustomItem("Bit","LSB (Least Significant Bit)")}
-                        ${createCustomItem("","Whitespace Language")}
+                        ${createCustomItem("Injection","Whitespace Language")}
                     </ul>
                     
                     <h2>OSINT</h2>
                     <ul>
-                        ${createCustomItem("","Google Dorks")}
-                        ${createCustomItem("","Geo OSINT")}
-                        ${createCustomItem("","Recon-ng")}
-                        ${createCustomItem("","Have I Been Pwned")}
+                        ${createCustomItem("Search","Google Dorks")}
+                        ${createCustomItem("Geo","Geo OSINT")}
+                        ${createCustomItem("Search","Have I Been Pwned")}
                     </ul>
                     
                     <h2>Reverse engineering</h2>
