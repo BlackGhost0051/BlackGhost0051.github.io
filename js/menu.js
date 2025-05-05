@@ -40,6 +40,8 @@ const links = {
     "Debian": "https://www.debian.org/Pics/openlogo-50.png",
     "Windows": "https://assets.ubuntu.com/v1/183c7231-windows_logo.svg",
 
+
+
     "Injection": "https://cdn-icons-png.flaticon.com/512/15096/15096885.png",
     "Dirb": "https://www.kali.org/tools/dirb/images/dirb-logo.svg",
     "Dirsearch": "https://www.kali.org/tools/dirsearch/images/dirsearch-logo.svg",
@@ -57,6 +59,9 @@ function createSkillItem(name) {
     return `<li><img src="${links[name]}" width="50" height="50"/>${name}</li>`;
 }
 
+function createCustomItem(linkName, name){
+    return `<li><img src="${links[linkName]}" width="50" height="50"/>${name}</li>`;
+}
 
 
 
@@ -161,6 +166,10 @@ let skillsMain = `
                         ${createSkillItem("Maltego")}
                         ${createSkillItem("Ghidra")}
                         ${createSkillItem("Recon-ng")}
+                        ${createSkillItem("John")}
+                        ${createSkillItem("GQRX")}
+                        ${createSkillItem("Dirb")}
+                        ${createSkillItem("Dirsearch")}
                     </ul>
                 </div>
                 
@@ -171,6 +180,46 @@ let skillsMain = `
                         ${createSkillItem("Debian")}
                         ${createSkillItem("Windows")}
                     </ul>
+                </div>
+                <div>
+                    <h1>Cibersecurity:</h1>
+                    
+                    <h2>Web Security</h2>
+                    <ul>
+                        ${createCustomItem("Injection","SSTI")}
+                        ${createCustomItem("Injection","XSS")}
+                        ${createCustomItem("Injection","SQL Injection")}
+                    </ul>
+                    
+                    <h2>Cryptography</h2>
+                    <ul>
+                        ${createCustomItem("Attack","Collision Attacks")}
+                    </ul>
+                    
+                    <h2>Steganography</h2>
+                    <ul>
+                        ${createCustomItem("Bit","LSB (Least Significant Bit)")}
+                        ${createCustomItem("","Whitespace Language")}
+                    </ul>
+                    
+                    <h2>OSINT</h2>
+                    <ul>
+                        ${createCustomItem("","Google Dorks")}
+                        ${createCustomItem("","Geo OSINT")}
+                        ${createCustomItem("","Recon-ng")}
+                        ${createCustomItem("","Have I Been Pwned")}
+                    </ul>
+                    
+                    <h2>Reverse engineering</h2>
+                    <ul>
+
+                    </ul>
+                    
+                    <h2>Networks</h2>
+                    <ul>
+
+                    </ul>
+
                 </div>
             </div>
             `;
