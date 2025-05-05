@@ -211,12 +211,14 @@ let skillsMain = `
                     
                     <h2>Reverse engineering</h2>
                     <ul>
-
+                        ${createCustomItem("Attack", "GDB")}
                     </ul>
                     
                     <h2>Networks</h2>
                     <ul>
-
+                        ${createCustomItem("Attack","ARP Spoofing")}
+                        ${createCustomItem("Attack","MITM")}
+                        ${createCustomItem("Attack","GNU Radio Companion")}
                     </ul>
 
                 </div>
