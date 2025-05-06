@@ -174,14 +174,6 @@ let skillsMain = `
                 </div>
                 
                 <div>
-                    <h1>Operating systems:</h1>
-                    <ul>
-                        ${createSkillItem("Kali Linux")}
-                        ${createSkillItem("Debian")}
-                        ${createSkillItem("Windows")}
-                    </ul>
-                </div>
-                <div>
                     <h1>Cibersecurity:</h1>
                     
                     <h2>Web Security</h2>
@@ -221,6 +213,14 @@ let skillsMain = `
                         ${createCustomItem("Attack","GNU Radio Companion")}
                     </ul>
 
+                </div>
+                <div>
+                    <h1>Operating systems:</h1>
+                    <ul>
+                        ${createSkillItem("Kali Linux")}
+                        ${createSkillItem("Debian")}
+                        ${createSkillItem("Windows")}
+                    </ul>
                 </div>
             </div>
             `;
